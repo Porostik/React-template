@@ -1,0 +1,15 @@
+{
+  "verbose": true,
+  "clearMocks": true,
+  "collectCoverage": true,
+  "setupFilesAfterEnv": ["./src/setupTests.js"],
+  "transform": {
+    "^.+\\.js$": "babel-jest",
+    "^.+\\.jsx$": "babel-jest"
+  },
+  "moduleNameMapper": {
+    "\\.(css|scss)$": "identity-obj-proxy"
+  },
+  "snapshotSerializers": ["enzyme-to-json/serializer"],
+  "modulePaths": ["<rootDir>/src"]
+}
